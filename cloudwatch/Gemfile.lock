@@ -31,6 +31,7 @@ GEM
     http_parser.rb (0.6.0)
     jmespath (1.4.0)
     msgpack (1.2.4)
+    oj (3.6.2)
     serverengine (2.0.6)
       sigdump (~> 0.2.2)
     sigdump (0.2.4)
@@ -47,6 +48,7 @@ PLATFORMS
 
 DEPENDENCIES
   fluent-plugin-cloudwatch-logs
+  oj
 
 BUNDLED WITH
    1.16.2
