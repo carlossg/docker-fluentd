@@ -16,7 +16,6 @@ COPY Gemfile* /fluentd/
      -y --no-install-recommends \
      $buildDeps libjemalloc1 \
      ruby-bundler \
-     net-tools \
     && bundle config silence_root_warning true \
     && bundle install --gemfile=/fluentd/Gemfile --path=/fluentd/vendor/bundle \
     && SUDO_FORCE_REMOVE=yes \
